@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+     /* .container{
+        background-color: beige;
+        border: 5px solid black;
+        margin:2px;
+        padding:2px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+         align-items: center;
+         height: 1200px;
+    }
+    .box{
+     height:200px;
+   width:200px;
+   border: 2px solid brown;
+   margin:2px;
+   padding:2px;
+    }
+    #box1{
+     background-color: blue;
+    }
+    #box2{
+     background-color: brown;
+    }
+    #box3{
+     background-color: red;
+    }
+    #box4{
+     background-color: green;
+    }  */
+    img{
+      width:220px
+    }
+    .container{
+      border: 1px solid black;
+      width:450px;
+      margin:2px;
+      display: flex;
+      padding:2px;
+      background-color: bisque;
+    }
+    #box1{
+      background-color: aqua;
+      border:2px solid blue;
+      width : 47%;
+      margin:3px;
+    }
+    #box2{
+      background-color: aquamarine;
+      width: 47%;
+    }
+    #id1{
+      border: 2px solid black;
+    }
+    #id2{
+      border: 2px solid black;
+    }
+    @media(max-width:640px){
+      .container{
+        flex-direction: column;
+      }
+    }
+    @media(min-width:640px){
+      .container{
+        flex-direction: row;
+      }
+    }
+  </style>
+
+</head>
+<body>
+     <!-- <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+     </div> -->
+     <div class="container">
+    <div id="box1">
+      <p id="id1">text here</p>
+      <p id="id2">text here</p>
+    </div >
+    <div id="box2">
+      <img src="wp4294829-batman-4k-wallpapers.jpg" alt="">
+    </div>
+   </div>
+</body>
+</html>
